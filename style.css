@@ -1,0 +1,706 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    body{
+      background-image: url(./img/white-abstract-texture-background.png);
+      background-size: cover;
+    }
+
+  :root{
+      --primary-color: #1a1a1a;
+      --secundary-color: #B1C900;
+      --tertiary-color: #393939;
+      --quaternary-color: #242424;
+    }
+
+/* Break point cabezote*/
+
+
+@media screen and (max-width: 600px) {
+  .menu{
+ 
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        
+      }
+  .logo-freddy{
+        width: auto;
+        height: auto;
+        align-self: center;
+  }
+
+    }
+
+/* estilos cabezote*/ 
+
+
+.menu{
+  position: sticky;
+  top: 0;
+  color: white;
+  display: flex;
+  align-self: center;
+  gap: 40px;
+  justify-content: space-around;
+  background-image: url(./img/black-abstract-texture-background.png);
+  background-size: cover;
+  z-index: 100;
+  padding: 10px;
+
+}
+
+#nav{
+  text-decoration: none;
+  color: #ffffff;
+
+}
+#nav:hover{
+  color: #B1C900;
+}
+
+.cabezote{
+  background-image: url(./img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+  height: 600px;
+width: auto;
+display: flex;
+flex-direction:row;
+justify-content: center;
+align-items: center;
+
+}
+
+.logo-freddy{
+  width: 10rem;
+
+}
+
+.logo-tex{
+padding: 30px;
+}
+/* Breakpoint quien soy*/ 
+
+@media screen and (max-width: 600px) {
+  
+  .quien_soy{
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  }
+
+.foto{
+  text-align: center;
+}
+  }
+
+  /* estilos quien soy*/ 
+
+.quien_soy{
+  display: flex;
+  width: auto;
+  height: auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.caja1{
+  padding: 40px;
+
+}
+
+.texto-oscuro{
+  font-size: 1.3rem;
+  color: #393939;
+  text-align: justify;
+}
+
+.titulo-nombre{
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #393939;
+}
+
+.textverde{
+  color: #B1C900;
+}
+
+.foto{
+
+  padding: 50px;
+}
+
+/* Breakpoint perfil*/ 
+
+@media screen and (max-width: 600px) {
+  
+
+.contenedor-1{
+
+  flex-wrap: wrap;
+}
+.perfil{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.ilustracion-text{
+justify-content: space-around;
+
+}
+
+/* estilos perfil*/ 
+
+}
+
+.perfil{
+  width: auto;
+  height: auto;
+  background-image: url(./img/black-abstract-texture-background.png);
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
+.tit-perfil{
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #242424;
+}
+
+.extverde{
+  color: white;
+}
+
+.contenedor-1{
+display: flex;
+flex-direction: row;
+width: auto;
+justify-content: center;
+justify-content: space-around;
+}
+
+.ilustracion-text{
+display: flex;
+flex-direction: column;
+margin-top: 5rem;
+}
+
+.ilustracion{
+width: 100%;
+padding: 10px;
+}
+
+.texto-manejo-programas{
+color: white;
+text-align: center;
+padding-right: 30px;
+}
+
+.programas-flex{
+  position: relative;
+  top: 30px;
+  padding: 30px;
+
+}
+
+.info-programa{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  background-color: #242424;
+  border-radius: 10px;
+  width: 50vw;
+}
+
+.programa-1{
+  width: auto;
+  padding: 20px;
+}
+
+.barra-1{
+
+  background-color: black;
+  border-radius: 10px;
+  width: 100%;
+}
+.medidor-1{
+  
+  background-color: #B1C900;
+  height: 8px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.porcentaje{
+  margin-left: 20px;
+  color: white;
+  text-align: center;
+
+  }
+
+  .medidor-2{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 75%;
+    border-radius: 10px;
+  }
+
+  .medidor-3{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .medidor-4{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 70%;
+    border-radius: 10px;
+  }
+  .medidor-5{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 80%;
+    border-radius: 10px;
+  }
+  .medidor-6{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .medidor-7{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 60%;
+    border-radius: 10px;
+  }
+
+  .medidor-8{
+  
+    background-color: #B1C900;
+    height: 8px;
+    width: 80%;
+    border-radius: 10px;
+  }
+
+  .cajatexto{
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    }
+
+
+/* Breakpoint perfil*/ 
+
+@media screen and (max-width: 600px) {
+  .contenedor-curriculum{
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  .icono{
+   width: auto; 
+  }
+}
+
+/* Estilos curriculum*/ 
+
+.curriculum{
+  padding-bottom: 30px;
+}
+
+.img-curriculum{
+  width: 100%;
+  padding: 30px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contenedor-curriculum{
+  display: flex;
+  padding: 40px;
+}
+
+.titulo-curriculum{
+  text-align: center;
+  margin-top: 2.5rem;
+
+}
+.texto-descp-curriculum{
+  font-size: 1.3rem;
+  color: #393939;
+  text-align: center;
+  padding: 10px;
+}
+
+.icono{
+  width: auto;
+  height: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.titulo-lista{
+  font-size: 2.5rem;
+  color: #242424;
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.texto-lista{
+  font-size: 1.3rem;
+  margin-left: 90px;
+}
+
+
+#text-edu{
+  color: #242424;
+  text-decoration: underline var(--secundary-color);
+}
+
+/* Estilos banner verde*/ 
+
+.banner{
+background-image: url(./img/green-abstract-texture-background.png);
+height: auto;
+width: auto;
+
+}
+.imagenbanner{
+background-image: url(./img/banner.png);
+
+}
+.frase{
+ font-size: 2.5rem;
+ text-align: center;
+ padding-top: 1.5rem;
+ color: #1a1a1a;
+
+}
+.button-clic{
+  text-align: center;
+padding: 30px;
+ 
+}
+
+/* Estilos portafolio*/ 
+
+.portafolio{
+  width: auto;
+  height: auto;
+  background-image: url(./img/black-abstract-texture-background.png);
+  background-size: cover;
+  padding-bottom: 80px;
+  padding-top: 3;
+}
+
+.galeria{
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 50%;
+    height: 740px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 20px;
+position: relative;
+left: 25%;
+width: 50%;
+top: 40px;
+
+}
+
+.galeria .items{
+border-radius: 5px;
+font-family: "Alex Brush";
+font-size: 2rem;
+font-weight: 900;
+background-image: url(./img/black-abstract-texture-background.png);
+
+
+&:first-child{
+background-image: url(./img/works/1.png);
+  
+  background-position: top center;
+  background-repeat:no-repeat;
+background-size: contain;
+align-self: stretch;
+}
+
+&:nth-child(2){
+  background-image: url(./img/works/2.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+}
+
+&:nth-child(3){
+  background-image: url(./img/works/3.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+}
+
+&:nth-child(4){
+
+  background-image: url(./img/works/4.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+
+  
+}
+
+&:nth-child(5){
+
+  background-image: url(./img/works/5.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+
+}
+
+&:nth-child(6){
+ 
+  background-image: url(./img/works/12.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+
+}
+
+&:nth-child(7){
+
+  background-image: url(./img/works/7.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+}
+
+&:nth-child(8){
+
+  background-image: url(./img/works/10.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+}
+
+&:nth-child(9){
+  background-image: url(./img/works/9.png);
+  background-repeat:no-repeat;
+  background-position: top center;
+background-size: contain;
+align-self: stretch;
+
+}
+
+
+}
+.titulo-portafolio{
+
+  text-align: center;
+  text-align: center;
+  padding: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: #242424;
+}
+
+.banner-fixed{
+  
+  background-image: url(./img/top-view-young-graphic-designer-working-desktop-computer-using-some-color-swatches-top-view.png);
+  width: auto;
+  height:auto;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+ 
+.fondo-blanco{
+ background-color: #000000;
+position: relative;
+width: 50%;
+left: 25%;
+top: 25%;
+bottom: 25%;
+ opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: center;
+ height:auto;
+ 
+}
+.texto-clientes{
+
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  position: relative;
+  top: 15%;
+  padding: 30px;
+  font-size: 2.5rem;
+  
+  color: white;
+}
+
+.contacto{
+
+  margin-bottom: 60px;
+
+}
+  
+.form{
+position: relative;
+left: 25%;
+display: inline;
+
+
+}
+.campos{
+  width: 50%;
+  border:  none;
+  height: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px  #dadada;
+
+}
+
+textarea{
+  width: 50%;
+  border:  none;
+  height: 90px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px  #dadada;
+
+}
+.titulo-nombre{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.texto-descp-contacto{
+  font-size: 1.3rem;
+  color: #393939;
+  text-align: center;
+  padding: 10px;
+}
+.boton-form{
+  width: 150px;
+  height: 40px;
+  background-color: #000000;
+  color:#B1C900;
+font-weight: 500;
+font-size: 1.5rem;
+border-radius: 30px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .textos-footer{
+        flex-direction: column;
+        flex-wrap: wrap;
+gap: 60px;
+      }
+    }
+
+.textos-footer{
+  background-image: url(./img/black-abstract-texture-background.png);
+  background-size: cover;
+  padding-bottom: 30px;
+  color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding: 40px;
+}
+
+.textos-info-footer{
+
+  text-align: center;
+}
+
+.redes{
+
+  width: auto;
+  height: auto;
+  background-image: url(./img/black-abstract-texture-background.png);
+  background-size: cover;
+  display: flex;
+flex-direction: row;
+justify-content:center;
+align-self: center;
+
+}
+.redes .ic{
+ padding: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+      }
+    
+.wh{
+display: block;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+
+
+}
+
+.ic :hover{
+width: 110%;
+}
+
+.items::after{
+  content:'';
+z-index: 300;
+position: absolute;
+
+}
+.items:hover::after{
+  width: 30%;
+  height: 30%;
+  background-color:#1a1a1a;
+  opacity: 0.5;
+
+
