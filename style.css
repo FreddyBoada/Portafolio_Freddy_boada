@@ -59,10 +59,12 @@
 #nav{
   text-decoration: none;
   color: #ffffff;
+  transition: color 1s;
 
 }
 #nav:hover{
   color: #B1C900;
+  
 }
 
 .cabezote{
@@ -81,12 +83,32 @@ align-items: center;
 
 .logo-freddy{
   width: 10rem;
+transition: transform 1s;
+}
 
+.logo-freddy:hover{
+  transform: rotate(5deg);
 }
 
 .logo-tex{
 padding: 30px;
+ animation-name: animacion-logo;
+animation-duration: 3s;
+animation-timing-function: linear;
+
 }
+
+@keyframes animacion-logo{
+
+from{
+    margin: 50% ;
+  }
+ to{
+  margin: 0%;
+ } 
+}
+
+
 /* Breakpoint quien soy*/ 
 
 @media screen and (max-width: 600px) {
@@ -139,6 +161,8 @@ padding: 30px;
 
   padding: 50px;
 }
+
+  
 
 /* Breakpoint perfil*/ 
 
@@ -404,6 +428,22 @@ background-image: url(./img/banner.png);
   text-align: center;
 padding: 30px;
  
+}
+
+@keyframes animacion-haz{
+
+  from{
+      scale:80%;
+    }
+  to  {
+    scale 100%;
+   } 
+  }
+.button-clic:hover{
+  animation-name: animacion-haz;
+  animation-duration: 0.2s;
+  animation-timing-function: linear;
+  animation-fill-mode:both;
 }
 
 /* Estilos portafolio*/ 
@@ -683,9 +723,22 @@ display: block;
   position: fixed;
   right: 50px;
   bottom: 50px;
-
-
+  animation-name: animacion-wh;
+animation-duration: 0.5s;
+animation-timing-function: linear;
+animation-fill-mode:both;
 }
+
+@keyframes animacion-wh{
+
+from{
+    scale:200%;
+  }
+to  {
+  scale 110%;
+ } 
+}
+
 
 .ic :hover{
 width: 110%;
@@ -702,5 +755,5 @@ position: absolute;
   height: 30%;
   background-color:#1a1a1a;
   opacity: 0.5;
-
+}
 
